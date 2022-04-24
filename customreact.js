@@ -14,4 +14,4 @@ class CustomReact extends React.Component{
 
 const domContainer = document.querySelector('#reactcontainer');
 const root = ReactDOM.createRoot(domContainer);
-root.render(element(CustomReact));
+root.render(CustomReact, domContainer);
