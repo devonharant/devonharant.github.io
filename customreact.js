@@ -2,10 +2,14 @@
 
 const element = React.createElement;
 
-const CustomReact = () =>{
-    return (
-        <div>REACT HERE</div>
-    );
+class CustomReact extends React.Component{
+    constructor(props){
+        super(props);
+    }
+
+    render(){
+        return(<div>REACT HERE!!</div>)
+    }
 }
 
 const domContainer = document.querySelector('#reactcontainer');
